@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoline — Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Autoline</h1>
+            <nav>
+                <ul>
+                    <li><a href="#search">Поиск автомобилей</a></li>
+                    <li><a href="#categories">Категории</a></li>
+                    <li><a href="#newarrivals">Новые поступления</a></li>
+                    <li><a href="#login">Войти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Форма регистрации -->
+    <section id="registration" class="registration-section">
+        <div class="container">
+            <h2>Регистрация</h2>
+            <form action="#" method="post">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm_password">Подтвердите пароль:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>© 2023 Autoline. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
